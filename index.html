@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#244d43">
+  <meta name="description"
+        content="Discover ELENA's concept collection of private summer villas in Cyprus.">
+  <title>ELENA — Summer Retreat</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@400;500;600;700&family=Noto+Sans+Arabic:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+  <link rel="stylesheet" href="./style/index-style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header container">
+    <a class="brand" href="#" aria-label="ELENA Summer Retreat home">
+      <span>ELENA</span>
+      <small>SUMMER RETREAT</small>
+    </a>
+
+    <nav class="desktop-nav" aria-label="Main navigation">
+      <a href="#" aria-current="page">HOME</a>
+      <a href="#stories">BLOG</a>
+      <a href="#villas">FAVORITE</a>
+      <a href="#about">ABOUT US</a>
+    </nav>
+
+    <div class="header-actions">
+      <nav class="language-switch" aria-label="Language">
+        <a href="index.html" lang="en" aria-current="page">EN</a>
+        <span aria-hidden="true">/</span>
+        <a href="fa.html" lang="fa" dir="rtl">فارسی</a>
+      </nav>
+      <a class="button button-small" href="#reservation">GET STARTED</a>
+    </div>
+
+    <details class="mobile-menu">
+      <summary aria-label="Open navigation">☰</summary>
+      <nav aria-label="Mobile navigation">
+        <a href="#">Home</a>
+        <a href="#stories">Blog</a>
+        <a href="#villas">Favorite</a>
+        <a href="#about">About us</a>
+        <a href="#reservation">Get started</a>
+      </nav>
+    </details>
+  </header>
+
+  <main id="main">
+    <section class="hero container" aria-labelledby="hero-title">
+      <div class="hero-intro">
+        <div class="hero-wordmark">
+          <h1 id="hero-title">ELENA</h1>
+          <span>SUMMER RETREAT</span>
+        </div>
+        <div class="hero-description">
+          <p class="eyebrow">YOUR OWN LITTLE CORNER OF CYPRUS</p>
+          <p>Private villas. Unhurried days.<br>
+             A summer that feels like yours.</p>
+        </div>
+      </div>
+
+      <div class="hero-photo">
+        <img src="./pic/no.jpg"
+             alt="A sunlit coastal villa with a private swimming pool"
+             fetchpriority="high">
+        <div class="hero-overlay">
+          <p class="eyebrow">THE SUMMER COLLECTION</p>
+          <h2>A slower kind of summer.</h2>
+          <p>Find your place between the olive trees and the sea.</p>
+        </div>
+        <span class="photo-caption">Casa Sol · Paphos, Cyprus</span>
+      </div>
+
+      <div class="search-bar" role="group" aria-label="Sample villa search">
+        <label>
+          <span>Destination</span>
+          <select name="destination">
+            <option>Anywhere in Cyprus</option>
+            <option>Paphos</option>
+            <option>Polis</option>
+            <option>Protaras</option>
+          </select>
+        </label>
+        <label>
+          <span>Your dates</span>
+          <input type="text" value="12 – 17 Jul 2027" readonly>
+        </label>
+        <label>
+          <span>Guests</span>
+          <select name="guests">
+            <option>4 adults · 2 children</option>
+            <option>2 adults</option>
+            <option>4 adults</option>
+            <option>6 adults</option>
+          </select>
+        </label>
+        <a class="button" href="#villas">SEARCH <span>↗</span></a>
+      </div>
+
+      <div class="benefits grid-three">
+        <div>
+          <h3>A place, not just a stay</h3>
+          <p>Thoughtfully selected private villas.</p>
+        </div>
+        <div>
+          <h3>Made for slow days</h3>
+          <p>Pools, terraces and room to unwind.</p>
+        </div>
+        <div>
+          <h3>Clear from the first click</h3>
+          <p>Nightly rates and fees, all in one place.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="destinations">
+      <header class="section-heading">
+        <p class="eyebrow">01 / FIND YOUR SUMMER</p>
+        <h2>Where would you like to slow down?</h2>
+        <p>Three ways to escape. One beautifully easy island.</p>
+      </header>
+
+      <div class="grid-three destination-grid">
+        <a class="destination-card" href="#villas">
+          <div class="image-wrap">
+            <img src="./pic/30de8e8d77deac82f6f5272f0ec4853a.jpg" alt="The blue coastline of Paphos"
+                 loading="lazy">
+            <span class="image-tag">Paphos</span>
+          </div>
+          <h3>By the coast <span>↗</span></h3>
+          <p>Salt in the air. The sea at your doorstep.</p>
+        </a>
+
+        <a class="destination-card" href="#villas">
+          <div class="image-wrap">
+            <img src="./pic/80aac306e17754b89f52234e41cd0843.jpg" alt="Olive trees in a quiet garden"
+                 loading="lazy">
+            <span class="image-tag">Polis</span>
+          </div>
+          <h3>Among the olives <span>↗</span></h3>
+          <p>Quiet gardens and cool, shaded afternoons.</p>
+        </a>
+
+        <a class="destination-card" href="#villas">
+          <div class="image-wrap">
+            <img src="./pic/44b6f681666ab402ca49644ded22c688.jpg" alt="A sunny Mediterranean terrace"
+                 loading="lazy">
+            <span class="image-tag">Protaras</span>
+          </div>
+          <h3>Warm Region <span>↗</span></h3>
+          <p>Golden light and long, sun-filled days.</p>
+        </a>
+      </div>
+    </section>
+
+    <section class="section collection" id="villas">
+      <div class="container">
+        <header class="section-heading">
+          <p class="eyebrow">02 / THE VILLA COLLECTION</p>
+          <h2>Find a place that feels like you.</h2>
+          <p>Three considered stays, with space for your favourite people.
+             Rates shown in USD.</p>
+        </header>
+
+        <div class="collection-tags" aria-label="Collection categories">
+          <span class="pill active">All villas · 3</span>
+          <span class="pill">Coast</span>
+          <span class="pill">Countryside</span>
+          <span class="pill">Warm Region</span>
+        </div>
+
+        <div class="grid-three villa-grid">
+          <article class="villa-card">
+            <div class="image-wrap">
+              <img src="./pic/d475369057551df8e988bcde407ca726.jpg" alt="Casa Sol villa and pool"
+                   loading="lazy">
+              <span class="image-tag">THE SUN SEEKER</span>
+            </div>
+            <div class="villa-content">
+              <p class="location">Paphos · Coast</p>
+              <div class="villa-title">
+                <h3>Casa Sol</h3>
+                <p class="price">$280 <small>/ night</small></p>
+              </div>
+              <p>A limestone hideaway with a private pool and long,
+                 lazy terrace lunches.</p>
+              <ul class="villa-specs">
+                <li>6 guests</li><li>3 bedrooms</li><li>2 baths</li>
+              </ul>
+              <p class="fine-print">180 m² · Private pool · Sea-view terrace · Wi-Fi</p>
+              <a class="text-link" href="#reservation">Explore &amp; reserve <span>↗</span></a>
+            </div>
+          </article>
+
+          <article class="villa-card">
+            <div class="image-wrap">
+              <img src="./pic/8ea4723aaafadb6dc0d4a51240ba4d92.jpg" alt="Olive House garden retreat"
+                   loading="lazy">
+              <span class="image-tag">THE QUIET ESCAPE</span>
+            </div>
+            <div class="villa-content">
+              <p class="location">Polis · Countryside</p>
+              <div class="villa-title">
+                <h3>Olive House</h3>
+                <p class="price">$220 <small>/ night</small></p>
+              </div>
+              <p>A garden retreat tucked between olive trees,
+                 with a pool all to yourself.</p>
+              <ul class="villa-specs">
+                <li>4 guests</li><li>2 bedrooms</li><li>2 baths</li>
+              </ul>
+              <p class="fine-print">120 m² · Plunge pool · Olive garden · Wi-Fi</p>
+              <a class="text-link" href="#reservation">Explore &amp; reserve <span>↗</span></a>
+            </div>
+          </article>
+
+          <article class="villa-card">
+            <div class="image-wrap">
+              <img src="./pic/7065ad255859bec235ddd1e9296f20e2.jpg" alt="Azure Cove infinity pool and sea views"
+                   loading="lazy">
+              <span class="image-tag">THE SEA-LOVER’S STAY</span>
+            </div>
+            <div class="villa-content">
+              <p class="location">Protaras · Warm Region</p>
+              <div class="villa-title">
+                <h3>Azure Cove</h3>
+                <p class="price">$340 <small>/ night</small></p>
+              </div>
+              <p>Open-air living, an infinity pool and a front-row seat to the sea.</p>
+              <ul class="villa-specs">
+                <li>8 guests</li><li>4 bedrooms</li><li>3 baths</li>
+              </ul>
+              <p class="fine-print">240 m² · Infinity pool · Sea views · Wi-Fi</p>
+              <a class="text-link" href="#reservation">Explore &amp; reserve <span>↗</span></a>
+            </div>
+          </article>
+        </div>
+        <p class="collection-note">
+          Stay a little longer. Every villa in this collection has a 3-night minimum.
+        </p>
+      </div>
+    </section>
+
+    <section class="section container comforts" id="about">
+      <figure class="comfort-photo">
+        <img src="./pic/hero.jpg" alt="A warm villa interior opening onto a terrace"
+             loading="lazy">
+        <figcaption>Doors open. Shoes off.<br>You’re on island time.</figcaption>
+      </figure>
+
+      <div class="comfort-copy">
+        <p class="eyebrow">03 / THE LITTLE THINGS, CONSIDERED</p>
+        <h2>All the comforts.<br>None of the hurry.</h2>
+        <p>Morning coffee on the terrace. One more dip before dinner.
+           Spaces designed for living well, together.</p>
+        <ul class="amenities">
+          <li>Your own pool</li>
+          <li>A kitchen to gather in</li>
+          <li>Stay connected</li>
+          <li>Cool, restful rooms</li>
+          <li>Private parking</li>
+          <li>Outdoor living</li>
+        </ul>
+        <p class="fine-print">
+          Included across the collection. See each villa for individual details.
+        </p>
+        <a class="text-link" href="#villas">Find your villa <span>↗</span></a>
+      </div>
+    </section>
+
+    <section class="section steps-section">
+      <div class="container">
+        <header class="section-heading">
+          <p class="eyebrow">04 / FROM BROWSING TO BAREFOOT</p>
+          <h2>Your summer, in three simple steps.</h2>
+        </header>
+        <div class="grid-three steps">
+          <article>
+            <span class="step-number">01</span>
+            <h3>Choose your place</h3>
+            <p>Compare the villas, choose your dates and tell us who’s coming.</p>
+          </article>
+          <article>
+            <span class="step-number">02</span>
+            <h3>Review &amp; request</h3>
+            <p>Check the full price and send your reservation request.</p>
+          </article>
+          <article>
+            <span class="step-number">03</span>
+            <h3>Confirm &amp; unwind</h3>
+            <p>After availability is confirmed, pay the deposit and receive
+               your arrival guide.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section stories" id="stories">
+      <div class="container">
+        <header class="section-heading">
+          <p class="eyebrow">05 / SUMMERS TO REMEMBER</p>
+          <h2>The best souvenir? Time together.</h2>
+          <p class="fine-print">Illustrative guest stories for this concept collection.</p>
+        </header>
+        <div class="grid-two">
+          <figure class="quote-card">
+            <blockquote>
+              “The terrace became our favourite room. Slow breakfasts,
+              a swim, and nowhere else we needed to be.”
+            </blockquote>
+            <figcaption>
+              <strong>Maya · Casa Sol</strong>
+              <span>Family summer escape</span>
+            </figcaption>
+          </figure>
+          <figure class="quote-card">
+            <blockquote>
+              “A little house among the olives, with everything we needed.
+              We finally switched off.”
+            </blockquote>
+            <figcaption>
+              <strong>Reza · Olive House</strong>
+              <span>A quiet week for two</span>
+            </figcaption>
+          </figure>
+        </div>
+        <ul class="trust-list">
+          <li>Transparent pricing</li>
+          <li>A human to help</li>
+          <li>Written booking confirmation</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section container faq" id="rental-terms">
+      <div>
+        <p class="eyebrow">06 / GOOD TO KNOW</p>
+        <h2>A little clarity,<br>before you go.</h2>
+        <p>The practical details, without the small-print feeling.
+           These are sample rental terms for the concept.</p>
+        <a class="text-link" href="mailto:hello@elena.example">Still wondering? Ask us ↗</a>
+      </div>
+      <div class="faq-list">
+        <details open>
+          <summary>How long can I stay?</summary>
+          <p>All three villas have a 3-night minimum.
+             The sample reservation below is for 5 nights.</p>
+        </details>
+        <details>
+          <summary>When do I pay?</summary>
+          <p>Request first; no payment is taken here. After confirmation,
+             30% is due to reserve; the balance is due 14 days before arrival.</p>
+        </details>
+        <details>
+          <summary>Can I change or cancel my stay?</summary>
+          <p>For this sample policy, cancel at least 30 days before arrival
+             for a full refund. Later cancellations retain the 30% deposit.
+             Date changes depend on availability.</p>
+        </details>
+        <details>
+          <summary>Are children welcome? What about arrival?</summary>
+          <p>Children count toward each villa’s capacity. Check-in is from
+             15:00; check-out is by 11:00. Ask about a cot when requesting your stay.</p>
+        </details>
+      </div>
+    </section>
+
+    <section class="section reservation-section" id="reservation">
+      <div class="container">
+        <header class="section-heading">
+          <p class="eyebrow">07 / YOUR NEXT CHAPTER STARTS HERE</p>
+          <h2>Let’s make room for your summer.</h2>
+          <p>Choose your stay, review the details and send your reservation request.</p>
+        </header>
+
+        <div class="booking-layout">
+          <form class="booking-form" aria-describedby="preview-notice">
+            <fieldset>
+              <legend>1. Make it your stay</legend>
+
+              <label for="villa">Choose your villa *</label>
+              <select id="villa" name="villa" required>
+                <option value="casa-sol">Casa Sol — $280 / night</option>
+                <option value="olive-house">Olive House — $220 / night</option>
+                <option value="azure-cove">Azure Cove — $340 / night</option>
+              </select>
+
+              <div class="form-grid">
+                <div class="field">
+                  <label for="check-in">Check-in *</label>
+                  <input id="check-in" name="check-in" type="date"
+                         value="2027-07-12" required>
+                </div>
+                <div class="field">
+                  <label for="check-out">Check-out *</label>
+                  <input id="check-out" name="check-out" type="date"
+                         value="2027-07-17" required>
+                </div>
+                <div class="field">
+                  <label for="adults">Adults *</label>
+                  <input id="adults" name="adults" type="number"
+                         min="1" max="8" value="4" required>
+                  <small>Ages 13 and above</small>
+                </div>
+                <div class="field">
+                  <label for="children">Children</label>
+                  <input id="children" name="children" type="number"
+                         min="0" max="7" value="2">
+                  <small>Ages 0–12 · included in capacity</small>
+                </div>
+              </div>
+              <p class="form-hint">
+                Sample: 5 nights · 6 guests · Casa Sol sleeps up to 6
+              </p>
+            </fieldset>
+
+            <fieldset>
+              <legend>2. A few details about you</legend>
+              <div class="form-grid">
+                <div class="field">
+                  <label for="first-name">First name *</label>
+                  <input id="first-name" name="first-name"
+                         autocomplete="given-name" placeholder="Sara" required>
+                </div>
+                <div class="field">
+                  <label for="last-name">Last name *</label>
+                  <input id="last-name" name="last-name"
+                         autocomplete="family-name" placeholder="Morgan" required>
+                </div>
+                <div class="field">
+                  <label for="email">Email address *</label>
+                  <input id="email" name="email" type="email" dir="ltr"
+                         autocomplete="email" placeholder="sara@example.com" required>
+                </div>
+                <div class="field">
+                  <label for="phone">Phone with country code *</label>
+                  <input id="phone" name="phone" type="tel" dir="ltr"
+                         autocomplete="tel" placeholder="+44 7700 900123" required>
+                </div>
+              </div>
+
+              <label for="message">Anything else? (optional)</label>
+              <textarea id="message" name="message" rows="4"
+                        placeholder="Tell us about any special requests."></textarea>
+
+              <label class="checkbox-label">
+                <input type="checkbox" name="terms" required>
+                <span>I agree to the rental terms and privacy policy.
+                  I understand this is a request, not a confirmed booking.</span>
+              </label>
+              <p class="fine-print">
+                * Required fields · We use your details only to arrange your stay.
+              </p>
+            </fieldset>
+          </form>
+
+          <aside class="booking-summary" aria-labelledby="summary-title">
+            <h3 id="summary-title">Your summer, at a glance</h3>
+            <img src="./pic/d475369057551df8e988bcde407ca726.jpg" alt="Casa Sol private pool"
+                 loading="lazy">
+            <div class="summary-content">
+              <h4>Casa Sol</h4>
+              <p class="fine-print">Paphos, Cyprus · Private pool · 3 bedrooms</p>
+              <p>12–17 Jul 2027 · 5 nights<br>4 adults + 2 children</p>
+
+              <dl class="price-breakdown">
+                <div><dt>$280 × 5 nights</dt><dd>$1,400</dd></div>
+                <div><dt>Cleaning fee</dt><dd>$85</dd></div>
+                <div><dt>Service fee</dt><dd>$65</dd></div>
+              </dl>
+              <p class="fine-print">Sample taxes included · All amounts in USD</p>
+
+              <dl class="price-breakdown payment-breakdown">
+                <div class="total"><dt>Total stay</dt><dd>$1,550</dd></div>
+                <div><dt>30% after confirmation</dt><dd>$465</dd></div>
+                <div><dt>Balance before arrival</dt><dd>$1,085</dd></div>
+              </dl>
+
+              <p class="fine-print">
+                Balance due 14 days before arrival. A separate $250 refundable
+                damage deposit is collected at check-in.
+              </p>
+              <button class="button full-width" type="button" disabled>
+                Request reservation <span>↗</span>
+              </button>
+              <p class="summary-note">
+                No payment now. We’ll confirm availability before you pay the deposit.
+              </p>
+              <p class="fine-print">
+                Fixed sample summary; changing the fields does not recalculate prices.
+              </p>
+            </div>
+          </aside>
+        </div>
+
+        <p class="preview-notice" id="preview-notice">
+          Design preview only — this form does not submit a booking or process a payment.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer container">
+    <div class="footer-top">
+      <a class="brand" href="#">
+        <span>ELENA</span><small>SUMMER RETREAT</small>
+      </a>
+      <nav aria-label="Footer navigation">
+        <a href="#rental-terms">Rental terms</a>
+        <a href="#privacy">Privacy</a>
+        <a href="mailto:hello@elena.example">hello@elena.example</a>
+        <a href="fa.html" lang="fa">فارسی</a>
+      </nav>
+    </div>
+    <p class="fine-print" id="privacy">
+      Preview privacy notice: this page does not send the information entered
+      in the form. A live service would need its own privacy policy.
+    </p>
+    <div class="footer-bottom">
+      <p>ELENA concept collection · Villas, prices, guest stories and rental
+         terms are illustrative, not live offers.</p>
+      <span>© ELENA 2027</span>
+    </div>
+  </footer>
+  <script src="./js/index.js"></script>
+</body>
+</html>
